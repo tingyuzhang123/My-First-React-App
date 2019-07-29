@@ -21,7 +21,7 @@ function App() {
           Learn React
       
         </a>
-        <MFF/>
+        <MFF name='user' age= '26' />
       </header>
     </div>
   );
