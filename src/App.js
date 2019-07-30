@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import MFF from './MyFirstFunction';
 import {DefaultUserName} from './MyFirstFunction'
+import MFC from './MyFirstClass'
+
 function App() {
   return (
     <div className="App">
@@ -23,6 +25,7 @@ function App() {
         </a>
         <MFF name='user' age= '26' />
       </header>
+      <MFC />
     </div>
   );
 }
